@@ -1,0 +1,84 @@
+
+    body 
+    {
+      margin: 0;
+      font-family: Garamond, sans-serif;
+      background-image: url(../pic/flo.jpg);
+    }
+
+    h1 
+    {
+      background-color: rgb(240, 255, 240,0.7);
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px; 
+      display: inline-block;
+      font-family: Brush Script MT, cursive;
+      font-weight: normal;
+      font-size: 48px;
+      border: solid darkgreen 3px;
+    }
+
+    .nav-panel 
+    {
+      background-color: mistyrose;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      gap: 60px;
+    }
+
+    .nav-panel a 
+    {
+      color: black;
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-panel a:hover 
+    {
+      color: mediumseagreen; 
+    }
+
+    .nav-panel a:active
+    {
+    	color: darkgreen;
+    }
+
+    .main 
+    {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .content-box 
+    {
+      flex: 1;
+      background-color: floralwhite;
+      color: black;
+      padding: 40px;
+      text-align: center;
+      min-height: 900px;
+    }
+
+    marquee
+    {
+     padding-top: 10px;
+     display: inline-block;
+     background-color: honeydew;
+     font-size: 15px;
+     font-weight: bold;
+     }
+
+     footer 
+     {
+     background-color: mistyrose;
+     color: black;
+     text-align: center;
+     font-size: 15px;
+     padding: 0.1px;
+     }
